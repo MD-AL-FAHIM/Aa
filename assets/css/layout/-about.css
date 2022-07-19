@@ -1,0 +1,22 @@
+.about-part{
+    padding: 120px;
+}
+.about-part .description,
+.about-part ul li{
+    font-family: var(--bizzency-secondary-font);
+    font-size: var(--bizzency-body-text-size);
+    font-weight: 400;
+    color: var(--bizzency-primary-clr);
+}
+.about-part .description{
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+.about-part ul li{
+    line-height: 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.about-content-button a:first-child{
+    margin-right: 30px;
+}

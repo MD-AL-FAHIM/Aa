@@ -1,0 +1,31 @@
+:root {
+    /* Global color for bizzency  */
+    --bizzency-primary-clr: #0f2f44;
+    --bizzency-secondary-clr: #8484bf;
+    --bizzency-nav-hover-bg: #fff9e6;
+    --bizzency-deep-brown: #5d3b15;
+    --bizzency-deep-green: #344a1f;
+    --bizzency-deep-purple: #392960;
+    --bizzency-section-bg: #f5f5f5;
+    --bizzency-arrow-hover: #fcc512;
+    --bizzency-white-clr: #ffffff;
+    --bizzency-social-icon: #777777;
+    --bizzency-deep-gray: #e9e9e9;
+    --bizzency-nav-btn-clr: #777777;
+    --bizzency-progress-bar-primary-bg-clr: #eeeeee;
+    --bizzency-progress-bar-ps-bg-clr: #2a4896;
+    --bizzency-progress-bar-ai-bg-clr: #5d3b15;
+    --bizzency-progress-bar-dw-bg-clr: #344a1f;
+    --bizzency-progress-bar-ae-bg-clr: #392960;
+    --bizzency-copy-right-bg-clr: #f8f8f8;
+    --bizzency-footer-bar-icon: #999999;
+
+
+    /* Global font family for bizzency */
+    --bizzency-primary-font: 'Abril Fatface', cursive;
+    --bizzency-secondary-font: 'Open Sans', sans-serif;
+    --bizzency-pecentage-font: 'Arial';
+
+    /* Global typography variables */
+    --bizzency-body-text-size: 16px;
+}

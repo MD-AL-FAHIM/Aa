@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a, span, input{
+    display: inline-block;
+}
+
+ul, ol, dl {
+    list-style-type: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+
+.flex-gap-20{
+    column-gap: 20px;
+}
+.flex-gap-40{
+    column-gap: 40px;
+}

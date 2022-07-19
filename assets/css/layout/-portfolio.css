@@ -1,0 +1,48 @@
+.portfolio-part{
+    background-color: var(--bizzency-white-clr);
+    padding: 100px 0;
+}
+.portfolio-part .portfolio{
+    margin: 50px 0;
+}
+
+.portfolio-part .portfolio-item{
+    position: relative;
+}
+
+.portfolio-part .portfolio-item h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bizzency-white-clr);
+    padding: 20px 15px;
+    font-size: 16px;
+    font-family: var(--bizzency-secondary-font);
+    color: var(--bizzency-primary-clr);
+    width: 100%;
+    text-align: center;
+    box-shadow: -5px 10px 65px -7px rgb(0 0 0 / 10%);
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    opacity: 0;
+}
+
+.portfolio-part .portfolio-item:hover h2{
+    opacity: 1;
+}
+.wrapper{
+    position: relative;
+    text-align: center;
+}
+.wrapper .prev-btn{
+    position: absolute;
+    top: calc( 50% - 25px );
+    left: calc(100% /3 - 10px);
+}
+.wrapper .next-btn{
+    position: absolute;
+    top: calc( 50% - 25px );
+    right: calc(100%/3 - 10px);
+}

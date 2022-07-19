@@ -1,0 +1,11 @@
+Template Name: Bizzency
+Theme URI: http://codiaum.com/
+Author: Jhone doe
+Author URI: https://codiaum.com/
+Description: An agency html template
+Stable Version: 1.0.0
+
+
+== Changelog ==
+version: 1.0.0
+Added: Home Page Added

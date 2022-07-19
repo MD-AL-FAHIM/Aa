@@ -1,0 +1,50 @@
+.bizzency-navbar{
+    background-color: var(--bizzency-white-clr);
+}
+
+.bizzency-navbar .navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bizzency-navbar .site-navigation ul li{
+    display: inline-block;
+    padding: 35px 12px;
+ }
+.bizzency-navbar .site-navigation ul li:not(:last-child){
+    margin-right: 15px;
+ }
+.bizzency-navbar .site-navigation ul li:hover{
+    background-color: var(--bizzency-nav-hover-bg);
+ }
+.bizzency-navbar .site-navigation ul li:hover a{
+    color: var(--bizzency-arrow-hover);
+ }
+ .bizzency-navbar .site-navigation ul li a{
+     font-size: var(--bizzency-body-text-size);
+     font-weight: 500;
+     font-family: var(--bizzency-secondary-font);
+     color: var(--bizzency-primary-clr);
+     transition: .4s;
+ }
+ .bizzency-navbar .nav-buttons button{
+    color: var(--bizzency-nav-btn-clr);
+    background-color: var(--bizzency-white-clr);
+    border: 1px solid #dedede;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: var(--bizzency-body-text-size);
+    cursor: pointer;
+    transition: .4s;
+ }
+ .bizzency-navbar .nav-buttons .menu-btn{
+     margin-right: 20px;
+ }
+ .bizzency-navbar .nav-buttons .search-btn:hover{
+     background-color: var(--bizzency-primary-clr);
+     color: var(--bizzency-arrow-hover);
+ }
+

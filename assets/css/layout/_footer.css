@@ -1,0 +1,95 @@
+footer{
+    --width : 1140px;
+    --col : calc(var(--width) / 8);
+}
+.footer-part{
+    background-color: var(--bizzency-section-bg);
+    position: relative;
+    padding: 100px;
+}
+.footer-part .footer-content{
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 
+                 calc(var(--col) * 2)
+                 calc(var(--col) * 2)
+                 calc(var(--col) * 1.5)
+                 calc(var(--col) * 2.5)
+}
+.footer-part .up-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+} 
+.footer-part i {
+    line-height: 20px;
+    color: var(--bizzency-white-clr);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.footer-part .arrow-buttons .up-btn{
+    background-color: var(--bizzency-arrow-hover);
+    position: absolute;
+    top: calc( 0% - 25px );
+    left: calc( 50% - 35px );
+}
+.footer-part .footer-site-logo{
+    margin-bottom: 10px;
+}
+.footer-part .descripton h2,
+.footer-part .contact h2,
+.footer-part .nav h2,
+.footer-part .gallery h2{
+    margin-bottom: 25px;
+}
+.footer-part h2{
+    font-family: var(--bizzency-secondary-font);
+    font-size: var(--bizzency-body-text-size);
+}
+.footer-part .descripton{
+    padding: 0 35px 0 0;
+}
+.footer-part .descripton ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px 0 0;
+}
+.footer-part .descripton ul li{
+    border: 2px solid var(--bizzency-social-icon);
+    border-radius: 50%;
+    padding: 6px;
+    transition: .4s;
+}
+.footer-part .descripton ul li i{
+    color: var(--bizzency-social-icon);
+    transition: .4s;
+}
+
+.footer-part .descripton ul li:hover{
+    background-color: var(--bizzency-primary-clr);
+    border: 2px solid var(--bizzency-primary-clr);
+}
+.footer-part .descripton ul li:hover i{
+    color: var(--bizzency-white-clr);
+}
+.footer-part .contact ul li:not(last-child){
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    padding-bottom: 35px;
+}
+.footer-part .contact ul li i{
+    color: var(--bizzency-social-icon);
+    font-size: 20px;
+}
+.footer-part .nav ul li:not(last-child){
+    padding-bottom: 20px;
+}
+.footer-part .gallery-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 8px;
+}

@@ -1,0 +1,17 @@
+h1 {
+    font-family: var(--bizzency-primary-font);
+}
+
+h2{
+    font-family: var(--bizzency-primary-font);
+    color: var(--bizzency-primary-clr);
+    font-weight: 400;
+    font-size: 32px;
+}
+
+p{
+    font-family: var(--bizzency-secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}

@@ -1,0 +1,16 @@
+.bizzency-header-top {
+    background-color: var(--bizzency-primary-clr);
+    padding: 12px 0;
+}
+
+.bizzency-header-top .header-top-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bizzency-header-top p {
+    color: var(--bizzency-white-clr);
+    font-family: var(--bizzency-secondary-font);
+    font-size: var(--bizzency-body-text-size);
+    font-weight: 500;
+}

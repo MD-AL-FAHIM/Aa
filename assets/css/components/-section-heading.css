@@ -1,0 +1,18 @@
+.section-heading .subtittle-top{
+    font-family: var(--bizzency-secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bizzency-primary-clr);
+}
+.section-heading .tittle{
+    font-family: var(--bizzency-primary-font);
+    color: var(--bizzency-primary-clr);
+    font-weight: 400;
+    font-size: 32px;
+}
+.section-heading .description{
+    font-family: var(--bizzency-secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bizzency-primary-clr);
+}
